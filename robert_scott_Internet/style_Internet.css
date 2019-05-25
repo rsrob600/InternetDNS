@@ -1,0 +1,435 @@
+/* * {
+    outline: 1px dotted red;
+} */
+
+.container {
+    /* background-color: goldenrod; */
+    width: 970px;
+    min-height: 500px;
+    margin: 0px auto;
+    font-family: "Franklin Gothic Book", "Microsoft Sans Serif", Helvetica, sans-serif;
+}
+
+/* Page header container */
+.page-header {
+    /* background-color: palegreen; */
+    height: 125px;
+    display: block;
+}
+
+/* Website Title */
+.page-header h1 {
+    color: #474747;
+    font-size: 38px;
+    top: 20px;
+    left: 90px;
+    display: inline;
+    position: relative;
+}
+
+/* Office Hours */
+.page-header p {
+    font-size: 11px;
+    top: -20px;
+    left: 590px;
+    display: inline;
+    position: relative;
+}
+
+/* International phone number */
+.page-header .int-phone {
+    font-size: 11px;
+    top: 20px;
+    left: 258px;
+    position: relative;
+}
+
+/* Local phone number */
+.page-header strong {
+    font-size: 28px;
+    color: #00c0df;
+    top: 6px;
+    left: 410px;
+    display: inline;
+    position: relative;
+}
+
+/* Phone icon */
+.phone {
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+    top: 15px;
+    left: 530px;
+    position: relative;
+}
+
+/* Page header tagline bar with gradient */
+.page-tagline-bar {
+    /* background-color: green; */
+    height: 57px;
+    margin-top: 25px;
+    position: relative;
+    background-image: linear-gradient(#27669f, #5182ab, #27669f);
+}
+
+/* The World Wide Web Tagline */
+.page-tagline-bar h2 {
+    color: white;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-top: -6px;
+    margin-left: 20px;
+    position: relative;
+}
+
+/* Globe Logo */
+.logo {
+    height: 90px;
+    width: 90px;
+    object-fit: cover;
+    margin-top: -70px;
+    margin-left: 0px;
+    position: relative;
+}
+
+/* Content header container with gradient */
+.content-header-gradient {
+    /* background-color: orange; */
+    height: 255px;
+    display: block;
+    background-image: linear-gradient(#e3e3e3, #ffffff, #ffffff);
+}
+
+/* Content header container for more resources buttons and text */
+.side-navigation {
+    /* background-color: yellow; */
+    height: 255px;
+    width: 200px;
+    display: inline-block;
+    border-bottom: 2px groove lightgray;
+}
+
+.side-navigation ul {
+    list-style: none;
+    margin-left: -15px;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.side-navigation ul li:before {
+    content: "\00BB \0020";
+    color: #da2a24;
+}
+
+.side-navigation a {
+    color: black;
+}
+
+.side-navigation a:hover {
+    color: #da2a24;
+    cursor: pointer;
+}
+
+/* Content header main container */
+.content-header-main {
+    /* background-color: lightblue; */
+    height: 800px;
+    width: 765px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* DNS home block */
+.dns-home-block {
+    /* background-color: purple; */
+    height: 55px;
+    width: 745px;
+    margin: 0 auto;
+    top: 0px;
+    position: relative;
+    border-bottom: 2px groove lightgray;
+}
+
+/* Page header title */
+.dns-home-block h2 {
+    color: #22649e;
+    top: -35px;
+    left: 50px;
+    position: relative;
+}
+
+/* Home Icon */
+.home-icon {
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    top: 15px;
+    left: 10px;
+    position: relative;
+}
+
+/* Top content block section title*/
+.content-header-main h3 {
+    color: #22649e;
+    top: -10px;
+    left: 20px;
+    position: relative;
+}
+
+/* Top content paragraph styling */
+.content-header-main p {
+    top: -25px;
+    left: 20px;
+    position: relative;
+}
+
+/* Top content list styling */
+.content-header-main ul li {
+    top: -35px;
+    left: 20px;
+    position: relative;
+    margin-left: 5px;
+    margin-right: 45px;
+}
+
+/* Bottom content client server image */
+.client-server {
+    height: 115px;
+    width: 300px;
+    object-fit: cover;
+    padding: 5px 5px;
+    top: -10px;
+    left: 200px;
+    position: relative;
+}
+
+/* Bottom content block section title*/
+.bottom-section-title {
+    color: #22649e;
+    top: 55px;
+    left: 20px;
+    position: relative;
+}
+
+/* Bottom list content */
+.bottom-list-content {
+    top: -15px;
+    position: relative;
+    margin-left: 22px;
+    margin-right: 45px;
+}
+
+/* Big 3 HTML content container */
+.big-3-content {
+    /* background-color: lightpink; */
+    height: 130px;
+    width: 730px;
+    padding: 10px 10px;
+    margin: 0 auto;
+    top: -5px;
+    position: relative;
+    border: 5px solid #0085e0;
+    box-shadow: 2px 2px #8F8F8F;
+}
+
+/* Big 3 HTML image */
+.big-3-image {
+    height: 110px;
+    width: 120px;
+    object-fit: cover;
+    display: inline-block
+}
+
+/* Section title */
+.big-3-content h3 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Content paragraph */
+.big-3-content p {
+    top: -90px;
+    left: 145px;
+    margin-right: 150px;
+    position: relative;
+}
+
+/* learn more "Here" hyperlink remove styling  */
+.big-3-content a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Side content block container */
+.side-content {
+    /* background-color: red; */
+    height: 545px;
+    width: 200px;
+    display: inline-block;
+}
+
+/* Side content container for more resources buttons and text */
+.side-content-resources {
+    /* background-color: pink; */
+    height: 175px;
+    width: 200px;
+    padding: 10px 0px 10px 0px;
+    display: inline-block;
+    border-bottom: 2px groove lightgray;
+}
+
+/* Font styling for the watch a video section */
+.side-content-resources p {
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* Font styling for the watch a video section */
+.side-content-resources strong {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.watch-button {
+    height: 35px;
+    width: 175px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    display: block;
+    color: white;
+    font-size: 15px;
+    background-image: linear-gradient(#5f95c2, #2667a0);
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px #bbbbbb;
+}
+
+.more-button {
+    height: 35px;
+    width: 175px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    display: block;
+    color: white;
+    font-size: 15px;
+    background-image: linear-gradient(#eaad56, #ef7600);
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px #bbbbbb;
+}
+
+/* Advertisement container */
+.advertisement-block {
+    /* background-color: yellowgreen; */
+    height: 330px;
+    width: 200px;
+    padding: 15px 0px 5px 0px;
+    display: inline-block;
+}
+
+/* Advertisement centered text aligned left */
+.advertisement-block p {
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    width: 200px;
+    text-align: center;
+    top: 580px;
+    position: absolute
+}
+
+/* Advertisement background */
+.advert-background {
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+    display: block;
+    box-shadow: 2px 2px #AAAAAA;
+}
+
+/* ninja */
+.ninja {
+    height: 150px;
+    width: 80px;
+    object-fit: contain;
+    top: 690px;
+    margin-left: 62px;
+    position: absolute;
+}
+
+.learn-more {
+    height: 25px;
+    width: 155px;
+    margin: 0 auto;
+    margin-bottom: 3px;
+    display: block;
+    top: 850px;
+    margin-left: 22px;
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    background-image: linear-gradient(#92e4f3, #03a6be);
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px #0c0c0c;
+}
+
+.footer {
+    /* background-color: lightcoral; */
+    padding: 5px;
+    padding-left: 275px;
+    padding-right: 300px;
+    min-height: 50px;
+    background-image: linear-gradient(#27669f, #5182ab, #27669f);
+}
+
+/* Footer Hyperlink Texts */
+.footer a {
+    text-align: center;
+    padding: 0px 15px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+/* Footer Hyperlink Text Hover Highlight */
+.footer a:hover {
+    color: #da2a24;
+    cursor: pointer;
+}
+
+/* Footer list remove bullets */
+.footer ul li {
+    display: inline;
+    list-style-type: none;
+}
+
+span-1 {
+    color: #22649e;
+}
+
+span-2 {
+    color: #da2a24;
+}
+
+span-3 {
+    color: #13c6e2;
+    /* font-weight: bold; */
+}
+
+span-4 {
+    font-weight: bold;
+}
+
+span-5 {
+    font-style: italic;
+}
